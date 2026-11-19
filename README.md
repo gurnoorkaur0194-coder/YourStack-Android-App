@@ -96,7 +96,3 @@ YourStack was developed as an exploration of Android application development, fo
 ## Contributing
 
 Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
-
-## License
-
-No license has been specified for this project yet.
