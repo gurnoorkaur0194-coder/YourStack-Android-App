@@ -31,19 +31,19 @@ YourStack is a Substack-inspired mobile application developed to provide a simpl
 
 | Home Feed |             Article Detail             |
 |:---:|:--------------------------------------:|
-| ![Home Feed](screenshots/home.png) | ![Article Detail](screenshots/post.png) |
+| ![Home Feed](app/screenshots/home.png) | ![Article Detail](app/screenshots/post.png) |
 
 |               Create Post               | User Profile |
 |:---------------------------------------:|:---:|
-| ![Create Post](screenshots/newpost.png) | ![Profile](screenshots/profile.png) |
+| ![Create Post](app/screenshots/newpost.png) | ![Profile](app/screenshots/profile.png) |
 
 |               Podcast page                |               Activity page                |
 |:-----------------------------------------:|:------------------------------------------:|
-| ![Poadcast page](screenshots/podcast.png) | ![Activity page](screenshots/activity.png) |
+| ![Poadcast page](app/screenshots/podcast.png) | ![Activity page](app/screenshots/activity.png) |
 
 |             Chat page              |             Subscribed author              |
 |:----------------------------------:|:------------------------------------------:|
-| ![Chat page](screenshots/chat.png) | ![Subscribed author](screenshots/subs.png) |
+| ![Chat page](app/screenshots/chat.png) | ![Subscribed author](app/screenshots/subs.png) |
 
 ## Project Structure
 
