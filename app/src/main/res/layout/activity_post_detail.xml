@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171719"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/detailBack"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="‹"
+            android:textColor="#F2EDE8"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/detailAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="AUTHOR"
+            android:textColor="#D17A4B"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="A moment ago"
+            android:textColor="#918781"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Article title"
+            android:textColor="#F2EDE8"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:lineSpacingExtra="5dp" />
+
+        <View
+            android:layout_width="42dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="25dp"
+            android:background="#C4510C" />
+
+        <TextView
+            android:id="@+id/detailContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Your article content appears here."
+            android:textColor="#D0C7C0"
+            android:textSize="17sp"
+            android:lineSpacingExtra="9dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="35dp"
+            android:background="#302D2B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="Thank you for reading. ♡"
+            android:textColor="#D17A4B"
+            android:textSize="14sp"
+            android:fontFamily="serif" />
+
+    </LinearLayout>
+</ScrollView>

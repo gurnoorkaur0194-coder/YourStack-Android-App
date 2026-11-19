@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171719">
+
+    <LinearLayout
+        android:id="@+id/splashContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/splashSymbol"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/ui_orange_pill"
+            android:gravity="center"
+            android:text="✦"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/splashLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="YourStack"
+            android:textColor="#F2EDE8"
+            android:textSize="39sp"
+            android:fontFamily="serif"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/splashTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="A little space for your thoughts."
+            android:textColor="#A69C95"
+            android:textSize="13sp"
+            android:letterSpacing="0.04" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="35dp"
+            android:background="#C4510C" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="35dp"
+        android:text="READ  ·  WRITE  ·  CONNECT"
+        android:textColor="#756B65"
+        android:textSize="10sp"
+        android:letterSpacing="0.15" />
+
+</FrameLayout>

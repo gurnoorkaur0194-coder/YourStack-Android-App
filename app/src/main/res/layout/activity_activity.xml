@@ -1,0 +1,524 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#171719">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Activity"
+            android:textColor="#F2EDE8"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•••"
+            android:textColor="#F2EDE8"
+            android:textSize="23sp"/>
+    </LinearLayout>
+
+    <!-- FILTERS -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:background="@drawable/ui_orange_pill"
+                android:text="All"
+                android:textColor="#F2EDE8"
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:text="Replies"
+                android:textColor="#B8AEA7"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:text="Mentions"
+                android:textColor="#B8AEA7"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:gravity="center"
+                android:text="Followers"
+                android:textColor="#B8AEA7"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#302D2B"/>
+
+    <!-- NOTIFICATION LIST -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <!-- TODAY -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TODAY"
+                android:textColor="#D17A4B"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingTop="18dp"
+                android:paddingBottom="10dp"/>
+
+            <!-- NOTIFICATION 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="#55443B"
+                    android:text="A"
+                    android:textColor="#F2EDE8"
+                    android:textSize="21sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Andrew liked your post"
+                        android:textColor="#F2EDE8"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The little things that make life beautiful"
+                        android:textColor="#A69C95"
+                        android:textSize="12sp"
+                        android:paddingTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 min ago"
+                        android:textColor="#817770"
+                        android:textSize="11sp"
+                        android:paddingTop="6dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="♥"
+                    android:textColor="#D17A4B"
+                    android:textSize="21sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#302D2B"/>
+
+            <!-- NOTIFICATION 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="#384B55"
+                    android:text="R"
+                    android:textColor="#F2EDE8"
+                    android:textSize="21sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rithanya S commented on your post"
+                        android:textColor="#F2EDE8"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="This is such a beautiful perspective!"
+                        android:textColor="#A69C95"
+                        android:textSize="12sp"
+                        android:paddingTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35 min ago"
+                        android:textColor="#817770"
+                        android:textSize="11sp"
+                        android:paddingTop="6dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="💬"
+                    android:textSize="19sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#302D2B"/>
+
+            <!-- NOTIFICATION 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="#55465A"
+                    android:text="M"
+                    android:textColor="#F2EDE8"
+                    android:textSize="21sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maya started following you"
+                        android:textColor="#F2EDE8"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 hour ago"
+                        android:textColor="#817770"
+                        android:textSize="11sp"
+                        android:paddingTop="6dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:background="#302D2B"
+                    android:text="Follow back"
+                    android:textColor="#F2EDE8"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#302D2B"/>
+
+            <!-- NOTIFICATION 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="#48523B"
+                    android:text="J"
+                    android:textColor="#F2EDE8"
+                    android:textSize="21sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="James mentioned you in a comment"
+                        android:textColor="#F2EDE8"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You might enjoy this conversation."
+                        android:textColor="#A69C95"
+                        android:textSize="12sp"
+                        android:paddingTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 hours ago"
+                        android:textColor="#817770"
+                        android:textSize="11sp"
+                        android:paddingTop="6dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#D17A4B"
+                    android:textSize="22sp"/>
+            </LinearLayout>
+
+            <!-- YESTERDAY -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YESTERDAY"
+                android:textColor="#D17A4B"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingTop="22dp"
+                android:paddingBottom="10dp"/>
+
+            <!-- NOTIFICATION 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="#55443D"
+                    android:text="S"
+                    android:textColor="#F2EDE8"
+                    android:textSize="21sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sarah recommended your publication"
+                        android:textColor="#F2EDE8"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yesterday"
+                        android:textColor="#817770"
+                        android:textSize="11sp"
+                        android:paddingTop="6dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="✦"
+                    android:textColor="#D17A4B"
+                    android:textSize="22sp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#302D2B"/>
+
+            <!-- NOTIFICATION 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="#4B4D35"
+                    android:text="K"
+                    android:textColor="#F2EDE8"
+                    android:textSize="21sp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="13dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kiran subscribed to your newsletter"
+                        android:textColor="#F2EDE8"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yesterday"
+                        android:textColor="#817770"
+                        android:textSize="11sp"
+                        android:paddingTop="6dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="✉"
+                    android:textColor="#D17A4B"
+                    android:textSize="21sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#171719">
+
+        <TextView
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="⌂\nHome"
+            android:textColor="#918781"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/navPodcasts"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="♫\nPodcasts"
+            android:textColor="#918781"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/navChat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="▢\nChat"
+            android:textColor="#918781"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/navActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="♡\nActivity"
+            android:textColor="#D17A4B"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</LinearLayout>

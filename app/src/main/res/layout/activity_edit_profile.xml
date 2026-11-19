@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171719"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/cancelEdit"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="‹"
+                android:textColor="#F2EDE8"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit profile"
+                android:textColor="#F2EDE8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/saveProfile"
+                android:layout_width="75dp"
+                android:layout_height="38dp"
+                android:background="#C4510C"
+                android:gravity="center"
+                android:text="Save"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Your profile, your story."
+            android:textColor="#F2EDE8"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Make a few changes and let people know you."
+            android:textColor="#A69C95"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="DISPLAY NAME"
+            android:textColor="#D17A4B"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Your name"
+            android:textColor="#F2EDE8"
+            android:textColorHint="#817873"
+            android:backgroundTint="#8A6552"
+            android:singleLine="true"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="USERNAME"
+            android:textColor="#D17A4B"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Your username"
+            android:textColor="#F2EDE8"
+            android:textColorHint="#817873"
+            android:backgroundTint="#8A6552"
+            android:singleLine="true"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="BIO"
+            android:textColor="#D17A4B"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editBio"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Tell people a little about yourself..."
+            android:textColor="#F2EDE8"
+            android:textColorHint="#817873"
+            android:backgroundTint="#8A6552"
+            android:paddingTop="12dp"
+            android:inputType="textMultiLine"
+            android:maxLength="200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="EMAIL ADDRESS"
+            android:textColor="#D17A4B"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Your email"
+            android:textColor="#F2EDE8"
+            android:textColorHint="#817873"
+            android:backgroundTint="#8A6552"
+            android:singleLine="true"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+</ScrollView>
